@@ -73,13 +73,14 @@
   background-color: cyan;
   width: 215px;
   height: 130px;
+  animation: desktop1 3s;
 }
 
 .mobile1 {
   background-color: greenyellow;
   position: relative;
-  bottom: 65px;
   left: 100px;
+  bottom: 65px;
   width: 80px;
   height: 150px;
 }
@@ -254,7 +255,7 @@ p {
 .footer {
   display: flex;
   width: 100%;
-  background-color: rgba( 0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   padding-top: 20px;
