@@ -155,12 +155,15 @@
 .infoSection {
   display: flex;
   flex-direction: row;
-  position: absolute;
   width: 100%;
-  top: 800px;
+  margin-top: 200px;
   margin-bottom: 180px;
   align-items: center;
   justify-content: center;
+}
+
+section {
+  height: 700px;
 }
 
 .contactInfo {
@@ -251,13 +254,14 @@ p {
 .miniFacePlate ul {
   padding-left: 0px;
 }
+.contentWrap {
+  height: 1000px;
+}
 
 .footer {
   display: flex;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }
